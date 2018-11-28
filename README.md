@@ -11,7 +11,7 @@ This may not be the latest version of the media_build, this may be updated if th
 ## Steps:
 
 1. download this repo
-2. follow the instructions inside the media_build_clean directory (essentially ./build & make & sudo make install should do it) 
+2. follow the instructions inside the media_build_clean directory (essentially ./build && sudo make install should do it) 
 3. reboot or modprobe it. Then you should have a /dev/dvb device, and you're ready to use something like tvheadend.
 
 --Justin C.
