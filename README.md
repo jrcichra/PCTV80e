@@ -1,4 +1,4 @@
-This is a working change of the media_build directory using the steps below.
+## PCTV80e media_build with modifications included!
 
 I am sharing this because newer versions of media_build augment the process to get the pinnacle working.
 
@@ -7,6 +7,12 @@ I can confirm this is working on a raspberry pi 3 model b and b+.
 At one point I did install this on an x86 Ubuntu system.
 
 This may not be the latest version of the media_build, this may be updated if there are significant improvements to the media_build system that warrants such an upgrade.
+
+## Steps:
+
+1. download this repo
+2. follow the instructions inside the media_build_clean directory (essentially ./build & make & sudo make install should do it) 
+3. reboot or modprobe it. Then you should have a /dev/dvb device, and you're ready to use something like tvheadend.
 
 --Justin C.
 
