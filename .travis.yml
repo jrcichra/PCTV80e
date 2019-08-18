@@ -5,6 +5,6 @@ before_install:
   - sudo apt install -y patchutils libproc-processtable-perl
 install:
   - cd media_build_clean
-  - make
+  - ./build
 script:
   - make install
