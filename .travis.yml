@@ -1,7 +1,7 @@
 dist: bionic
 language: c
 before_install:
-  - sudo apt install -y lsdiff patchutils libproc-processtable-perl
+  - sudo apt install -y patchutils libproc-processtable-perl
 install:
   - cd media_build_clean
   - ./build
