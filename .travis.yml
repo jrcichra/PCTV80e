@@ -1,0 +1,7 @@
+dist: bionic
+language: c
+install:
+  - cd media_build_clean
+  - ./build
+script:
+  - make install
