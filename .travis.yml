@@ -18,6 +18,7 @@ before_install:
   - unzip media_build_clean.zip
 install:
   - cd media_build
-  - bash -x build
+  - chmod +x build
+  - ./build
 script:
   - make install
