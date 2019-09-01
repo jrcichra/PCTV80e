@@ -5,5 +5,5 @@ install:
   - git clone git://linuxtv.org/media_build.git
   - cd media_build
   - ls -lrt
-  - chmod +x build.sh
+  - chmod +x build
   - ./build
