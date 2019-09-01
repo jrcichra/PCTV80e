@@ -9,3 +9,4 @@ install:
   - ls -lrt
   - chmod +x build
   - ./build
+  - ls -lrt
