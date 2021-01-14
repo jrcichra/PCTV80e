@@ -2,6 +2,8 @@
 
 See my issue on patrick's page: https://github.com/patrickdickey52761/PCTV80e/issues/2
 
-Essentially all you need to do for modern kernels is cd to /lib/firmware and run `sudo wget https://github.com/jrcichra/PCTV80e/raw/master/dvb-fe-drxj-mc-1.0.8.fw`. There might be newer versions you can download from here: https://www.linuxtv.org/downloads/firmware/
+# Install
+cd to `/lib/firmware` and run `sudo wget https://github.com/jrcichra/PCTV80e/raw/master/dvb-fe-drxj-mc-1.0.8.fw`.
+If you're using `tvheadend`, restart it with `sudo systemctl restart tvheadend`.
 
-No need to clone this repo.
+There might be newer versions of the firmware here: https://www.linuxtv.org/downloads/firmware/
